@@ -1,0 +1,29 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    package="com.example.zoom_clone">
+    <!-- Flutter needs it to communicate with the running application
+         to allow setting breakpoints, to provide hot reload, etc.
+    -->
+      <!-- <application
+        tools:replace="android:label"
+        android:label="zoom_clone"
+        android:name="${applicationName}"
+        android:icon="@mipmap/ic_launcher"
+        
+        
+        > -->
+        <!-- <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@style/LaunchTheme"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize"
+            
+            > -->
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- </activity>
+    </application> -->
+</manifest>
